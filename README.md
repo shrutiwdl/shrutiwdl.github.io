@@ -1,2 +1,202 @@
-# shrutiwdl.github.io
-wdl project
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("image.jpg");
+  min-height: 90%;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">HOME</a>
+    <a href="#exc" class="w3-bar-item w3-button">EXCERCISES</a>
+    <a href="#pac" class="w3-bar-item w3-button">PACKAGES</a>
+    <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#googleMap" class="w3-bar-item w3-button">CONTACT</a>
+    </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge">Open from 6am to 9pm</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:100px">GYM<br>MANAGEMENT SYSTEM</span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>thin<br>CRUST PIZZA</b></span>
+    <p><a href="#menu" class="w3-button w3-xxlarge w3-black">ACE FITNESS CENTER</a></p>
+  </div>
+</header>
+
+<!-- EXCERCISE Container -->
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="exc">
+  <div class="w3-content">
+  
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">EXCERCISE</h1>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'MACHINES');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">MACHINES</div>
+      </a>
+      
+    </div>
+
+    <div id="machines" class="w3-container Excercise w3-padding-32 w3-white">
+      <h1><b>Horizontal Seated Leg Press</b> <span class="w3-right w3-tag w3-dark-grey w3-round"></span></h1>
+      <p class="w3-text-grey">what are u working:,quads,glutes,hamstrings,calves</p>
+      <hr>
+   
+      <h1><b>Lat Pull-Down</b> <span class="w3-right w3-tag w3-dark-grey w3-round"></span></h1>
+      <p class="w3-text-grey">what are u working:(shoulder, latissimus dorsi)</p>
+      <hr>
+      
+      <h1><b>Cable Biceps Bar</b> <span class="w3-right w3-tag w3-dark-grey w3-round"></span></h1>
+      <p class="w3-text-grey">what are u working:(biceps)</p>
+      <hr>
+
+      <h1><b>Cable Triceps Bar</b> <span class="w3-right w3-tag w3-dark-grey w3-round"></span></h1>
+      <p class="w3-text-grey">what are u working:(biceps,arms)</p>
+      <hr>
+
+      <h1><b>Chest Press</b> <span class="w3-tag w3-red w3-round"></span></h1>
+      <p class="w3-text-grey">what are u working:(shoulder, biceps ,chest)</p>
+      <hr>
+
+      <h1><b>Hanging Leg Raise</b> <span class="w3-tag w3-grey w3-round"></span></h1>
+      <p class="w3-text-grey">what are u working:(hips,core)</p>
+      <hr>
+
+      <h1><b>Cardio:Rowing Machine</b> <span class="w3-tag w3-grey w3-round"></span></h1>
+      <p class="w3-text-grey">what are u working:(full body)</p>
+      <hr>
+
+ </div><br>
+
+ <!-- The Package Section -->
+  <div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="pac">
+  <div class="w3-content">
+  
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">MEMBERSHIP PLANS</h1>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Packages');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">PACKAGES</div>
+      </a>
+      
+    </div>
+
+
+    <div id="machines" class="w3-container Packages w3-padding-32 w3-white">
+      <h1><b>Monthly</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Rs 2,499</span></h1>
+      <p class="w3-text-grey">what are u getting:(Unlimited access to every facility for one month)</p>
+      <hr>
+   
+      <h1><b>Bi-Monthly</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Rs 3,299</span></h1>
+      <p class="w3-text-grey">what are u getting:(Unlimited acess to every facility for two months)</p>
+      <hr>
+      
+      <h1><b>Quarterly</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Rs 4,599</span></h1>
+      <p class="w3-text-grey">what are u getting:(Unlimited acess to every facility for Three months)</p>
+      <hr>
+
+      <h1><b>Half-Year</b> <span class="w3-right w3-tag w3-dark-grey w3-round">Rs 6,499</span></h1>
+      <p class="w3-text-grey">what are u getting:(Unlimited acess to every facility for six months)</p>
+      <hr>
+
+      <h1><b>One-Year</b> <span class="w3-tag w3-red w3-round">Rs 8,199</span></h1>
+      <p class="w3-text-grey">what are u getting:(Unlimited acess to every facility for one year)</p>
+      <hr>
+
+      
+
+ </div><br>
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About</h1>
+    <p>Ace Fitness Center is a highly digitalized website designed especially for Gym and gym members. 
+
+It helps for easy administration management, Gym memberships, health records of the clients, easy-to-end communication between the gym and the members.
+
+Ace Fitness Center having numerous amount of benefits such as an application for the members, CRM system, overall access control, a web portal for the gym for easy management reducing the paperwork, revenue growth as well as time skimping.<br>
+<b>WHAT DO YOU GET?</b><br>
+Your complete training schedule.<br>
+Diet plan .<br>
+Supplement plan .<br>
+Your full body analysis worth Rs. 500 free.<br>
+Follow up via email from your coach.<br>
+</p>
+ <img src="image1.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
+    
+    <img src="image2.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
+    <h1><b>Working Hours</b></h1>
+    
+    <div class="w3-row">
+      <div class="w3-col s6">
+        <p>Morning 6am-12pm</p>
+        <p>Evening 4pm - 10pm</p>
+        
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;">
+
+<!-- Contact -->
+<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h1>
+    <p>Contact us:- 8425143431/9869114321</p>
+    <p><span class="w3-tag">OFFERS!</span> We offer Gym-Trainers  at affordable cost. We understand your needs and we will provide services to satisfy all your requirements </p>
+    <p class="w3-xxlarge"><strong>Register/Sign-up</strong> Contact us for any queries or just send us a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="emailid" placeholder="Enter your email adress" required name="email"	1></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-block" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+  <p>GYM MGMT SYSTEM <a href="https://www.w3schools.com/w3css/default.asp" title="WDL PROJECT" target="_blank" class="w3-hover-text-green">WDL PROJECT</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
