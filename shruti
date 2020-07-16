@@ -25,7 +25,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
     <a href="#exc" class="w3-bar-item w3-button">EXCERCISES</a>
     <a href="#pac" class="w3-bar-item w3-button">PACKAGES</a>
     <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
-    <a href="#googleMap" class="w3-bar-item w3-button">CONTACT</a>
+    <a href="#contactme" class="w3-bar-item w3-button">CONTACT</a>
     </div>
 </div>
   
@@ -159,7 +159,7 @@ Follow up via email from your coach.<br>
 <img src="/w3images/map.jpg" class="w3-image w3-greyscale" style="width:100%;">
 
 <!-- Contact -->
-<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
+<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge" id="contactme">
   <div class="w3-content">
     <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h1>
     <p>Contact us:- 8425143431/9869114321</p>
@@ -197,3 +197,5 @@ function openMenu(evt, menuName) {
 }
 document.getElementById("myLink").click();
 </script>
+</body>
+</html>
